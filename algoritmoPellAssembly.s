@@ -42,3 +42,5 @@ main:
 		li $v0, 1
 		add $a0, $t2, $zero
 		syscall
+
+		add $t2, $zero, $zero #resetando valor da variavel $t2
